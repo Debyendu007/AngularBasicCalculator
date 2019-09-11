@@ -1,0 +1,25 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="https://image.flaticon.com/icons/png/512/18/18169.png"
+  />
+  <span style="color:black">Calculator</span>
+    <div class="spacer"></div>
+  <a aria-label="Angular GitHub" target="_blank" rel="noopener" href="https://www.github.com/Debyendu007" title="Git: Debyendu007">
+    
+    <img id="git_logo" height="40px" width="40px" style="color: #ffffff;" src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-png-transparent.png">
+    
+  </a>
+</div>
+
+<div class="content" role="main">
+
+    <!-- Highlight Card -->
+    <div class="card card-calc"> <!-- highlight-card -->
+        <div app-calc-header [parentTitle]="title"></div>
+        <div app-calc-display></div>
+        <div class="content-row"><app-calc-controls></app-calc-controls></div>
+    </div>
+</div>
