@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CalcHeaderComponent implements OnInit {
 
-  @Input('parentTitle') public header_name;
+  @Input('parenttitle') public header_name;
 
   constructor() { }
 

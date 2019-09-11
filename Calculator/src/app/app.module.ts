@@ -1,3 +1,4 @@
+import { LogicService } from './services/logic.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -16,7 +17,7 @@ import { CalcControlsComponent } from './calc-controls/calc-controls.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [LogicService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
